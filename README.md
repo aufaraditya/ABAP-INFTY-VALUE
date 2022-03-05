@@ -21,4 +21,4 @@ Global Utility Class to Retrieve Infotype Data
 | INFOTYPE_VAL    | ANY TABLE      | Internal Table containing the infotype data with the type according to desired infotype table type  |
 | ERROR_MSG       | STRING         | Error Message                                                                                       |
 
-#### Sample Program Report contains example on how to retrieve infotype 1 data.
+#### Sample Program Report `zre_global_infty_sample.prog.abap` contains example on how to retrieve infotype 1 data.
