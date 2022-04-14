@@ -15,7 +15,7 @@ CLASS zcl_infty_data DEFINITION
         VALUE(error_msg) TYPE string.
   PROTECTED SECTION.
   PRIVATE SECTION.
-    CLASS-DATA  object_id      TYPE objps.
+    CLASS-DATA  object_id      TYPE objps VALUE '*'.
     CLASS-DATA  lock_indicator TYPE sprps.
     CONSTANTS  tclas_param    TYPE tclas VALUE 'A'.
 
